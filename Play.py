@@ -19,7 +19,7 @@ env = wrapper(env)
 states = (84, 84, 4)
 actions = env.action_space.n
 
-# Pham xuan 
+# Pham xuan tri
 # Agent
 agent = DQNAgent(states=states, actions=actions, max_memory=100000, double_q=True)
 
