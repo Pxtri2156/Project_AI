@@ -17,4 +17,3 @@ Sử dụng hàm replay()
 *còn nữa* :v
 ## Reference
 Project được tham khảo chính [tại đây](https://www.statworx.com/de/blog/using-reinforcement-learning-to-play-super-mario-bros-on-nes-using-tensorflow/)
->>>>>>> 297983579086aaf7146b69a7d8c91cb69a6a438f
