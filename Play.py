@@ -19,7 +19,7 @@ env = wrapper(env)
 states = (84, 84, 4)
 actions = env.action_space.n
 
-# Pham xuan tri
+# Pham xuan
 # Agent
 agent = DQNAgent(states=states, actions=actions, max_memory=100000, double_q=True)
 
@@ -32,11 +32,11 @@ start = time.time()
 step = 0
 
 # model path 
-model_path = 'E:\Courses\AI\Đồ án 2\super-mario-reinforcement-learning\models'
+model_path = 'E:\Courses\AI\Project_Final\super-mario-reinforcement-learning\models'
 
 # Main loop
 #env.reset()
-agent.replay(env,model_path,arg.n_replay,plot = True)
+agent.replay(env,model_path,arg.n_replay,plot = False)
 #env.reset()
 
 print("Done")

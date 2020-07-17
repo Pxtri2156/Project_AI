@@ -10,7 +10,7 @@ def get_args():
         help='The name of the environment to play'
     )
     parser.add_argument('--n_replay', '-n',
-        type=int,   
+        type=int,
         default=10,
         help='The numbers replay models '
     )

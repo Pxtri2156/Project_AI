@@ -57,7 +57,7 @@ for e in range(episodes):
 
         # Remember
         agent.add(experience=(state, next_state, action, reward, done))
-        print('Training:  action-{a} reward-{r} done-{d} info-{i}'.format(s = state, a = action, r = reward, d = done,i = info))
+        print('Episode: {e} iter-{iter}  action-{a} reward-{r} done-{d} info-{i}'.format(e = e,iter = iter, a = action, r = reward, d = done,i = info))
 
         # Replay
         agent.learn()

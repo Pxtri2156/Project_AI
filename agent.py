@@ -108,6 +108,7 @@ class DQNAgent:
         if self.step % self.copy == 0:
             self.copy_model()
         # Checkpoint model
+        print("STEP",self.step)
         if self.step % self.save_each == 0:
             self.save_model()
         # Break if burn-in
